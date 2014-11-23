@@ -21,5 +21,7 @@ int main() {
     int y = Factorial<4>::value; // == 24
     cout << "4! = " << y << endl;
 
+    system("pause");
+
     return 0;
 }

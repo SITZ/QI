@@ -1,4 +1,4 @@
-Index
+Agenda: C++ Primer - 3
 
 1. Introduction
 2. Review
@@ -15,26 +15,26 @@ Index
 		- Genereic Programming
 		- Readability
 4. Opearators
-	- Types
-		- Arithmetic (+, -)
-		- Relational (<, !=)
-		- Logical (||, !)
-		- Bitwise (|, ^)
-		- Assignment (=, <<=)
-		- Miscellaneous (Ternary, sizeof)
+	- Categories
+		- Arithmetic (+, -, ...)
+		- Relational (<, !=, ...)
+		- Logical (||, !, ...)
+		- Bitwise (|, ^, ...)
+		- Assignment (=, <<=, ...)
+		- Miscellaneous (Ternary, sizeof, ...)
 	- Examples
 	- Overloading
 		- Examples
 5. Standard Template Library
-	- Types
-		- Containers (Vectors, Queues etc)
+	- Categories
+		- Containers (Vectors, Queues, ...)
 		- Iterators (Input, Output, Forward, Bidirectional, Random Access)
 		- Algorithms ()
 		- Functors
 	- Common functions
 	- Example 
-	- Combine it all Exercise
-6. More doubts session
-7. Reference
+6. Combine it all Exercise
+7. More doubts session
+8. Reference
 	- http://www.cplusplus.com/
 	- http://en.cppreference.com/

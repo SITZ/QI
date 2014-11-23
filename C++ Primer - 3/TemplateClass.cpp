@@ -1,7 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <cstdlib>
-#include <string>
 using namespace std;
 
 template <class T>
@@ -27,19 +25,43 @@ class Stack {
     } 
 };
 
-// TODO: Create a class for working with a tuple / pair
+/*
+    Exercise: WAP to create a generic class for working with a tuple / pair of any data type
+*/
+
+template<class T>
+class Pair {
+private:
+    T first;
+    T second;
+
+public:
+    Pair() :
+        first(NULL), second(NULL) {}
+    Pair(T _first, T _second) : 
+        first(_first), second(_second) {}
+};
 
 int main() { 
-    Stack<int>    intStack;       // stack of ints 
-    Stack<string> stringStack;    // stack of strings 
+    // Stack of integer values
+    Stack<int>    intStack;
+    // Stack of string values
+    Stack<string> stringStack;
 
-    // manipulate int stack 
+    // Manipulate int stack 
     intStack.push(7); 
     cout << intStack.top() <<endl; 
+    intStack.push(10);
+    cout << intStack.top() << endl;
 
-    // manipulate string stack 
+    // Manipulate string stack 
     stringStack.push("hello"); 
     cout << stringStack.top() << endl; 
+    stringStack.push("world");
+    cout << stringStack.top() << endl;
+    stringStack.pop();
+    cout << stringStack.top() << endl;
     stringStack.pop(); 
 
+    return 0;
 } 
