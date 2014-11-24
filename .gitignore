@@ -1,4 +1,8 @@
-# Mac OS shit
+# Eclipse IDE files
+.cproject
+.project
+
+# OS files
 .DS_Store
 *~
 

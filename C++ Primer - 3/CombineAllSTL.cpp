@@ -24,7 +24,7 @@ int main() {
 	}
 
 	cout << endl;
-	
+
 	sort(tickList.begin(), tickList.end(), comparison);
 
 	for (vector<pair<int, int> >::iterator it = tickList.begin(); it != tickList.end(); it++) {
