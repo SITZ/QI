@@ -1,4 +1,2 @@
-QI
-==
-
-QuantInsti Teaching Material
+QI: QuantInsti Teaching Material
+================================
