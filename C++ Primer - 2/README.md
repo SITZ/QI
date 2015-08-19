@@ -9,6 +9,7 @@ Agenda: C++ Primer - 2
 		- Address-of operator (&)
 		- Dereference operator (*)
 		- Pointer arithmetics
+        - Relation with arrays
 	- Dynamic Memory
 		- new and new[]
 		- delete and delete[]
@@ -30,6 +31,8 @@ Agenda: C++ Primer - 2
 	- Exceptions
 	- File handling
 7. More doubts session
-8. Reference
+8. Reference Web Resources
 	- http://www.cplusplus.com/
 	- http://en.cppreference.com/
+9. Reference Books
+    - http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list

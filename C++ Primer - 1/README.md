@@ -9,7 +9,7 @@ Agenda: C++ Primer - 1
 4. Basics of C++
 	- Structure of a Program
 	- Fundamental data types
-		- Ranges
+		- Data type Ranges
 	- Variables
 		- Valid Identifiers
 		- Declaration of variables
@@ -49,6 +49,8 @@ Agenda: C++ Primer - 1
 		- Structs
 		- Unions
 7. More doubts session
-8. Resources
+8. Reference Web Resources
 	- http://www.cplusplus.com/
 	- http://en.cppreference.com/
+9. Reference Books
+    - http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
